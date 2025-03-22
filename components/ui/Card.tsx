@@ -43,7 +43,7 @@ export function ThreeDCardDemo({id, title, img, des, iconLists, link} : {
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex justify-between items-center mt-20">
+        <div className="flex justify-between items-center mt-10">
           <CardItem
             translateZ={20}
             translateX={-30}

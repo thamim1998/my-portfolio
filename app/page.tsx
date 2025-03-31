@@ -1,4 +1,5 @@
 import Achievements from "@/components/Achievements";
+import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import { RecentProjects } from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -14,6 +15,7 @@ export default function Home() {
       <Grid />
       <RecentProjects/>
       <Achievements/>
+      <Experience/>
     </div>
    </main>
   );

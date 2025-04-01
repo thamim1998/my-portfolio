@@ -8,7 +8,7 @@ export const navItems = [
         export const gridItems = [
           {
             id: 1,
-            title: "I prioritize client collaboration, fostering open communication ",
+            title: "I prioritize collaboration, fostering open communication ",
             description: "",
             className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
             imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
           },
           {
             id: 2,
-            title: "I'm very flexible with time zone communications",
+            title: "Excited to embrace new environments and cultures as part of my next career step",
             description: "",
             className: "lg:col-span-2 md:col-span-3 md:row-span-2",
             imgClassName: "",
@@ -49,7 +49,7 @@ export const navItems = [
         
           {
             id: 5,
-            title: "Currently building a JS Animation library",
+            title: "Currently building a JS Animation application",
             description: "The Inside Scoop",
             className: "md:col-span-3 md:row-span-2",
             imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const navItems = [
           },
           {
             id: 6,
-            title: "Do you want to start a project together?",
+            title: "Let's bring ideas to life!",
             description: "",
             className: "lg:col-span-2 md:col-span-3 md:row-span-1",
             imgClassName: "",
@@ -72,27 +72,27 @@ export const navItems = [
         export const projects = [
           {
             id: 1,
-            title: "3D Solar System Planets to Explore",
-            des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-            img: "/p1.svg",
+            title: "TalkBot",
+            des: "AI-driven conversational interface automating customer support, FAQs, and user engagement through text.",
+            img: "/chat-bot.svg",
             iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-            link: "https://github.com/adrianhajdin?tab=repositories",
+            link: "https://github.com/thamim1998/TalkBot",
           },
           {
             id: 2,
-            title: "Yoom - Video Conferencing App",
-            des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+            title: "Olympic Volunteer System",
+            des: "A centralized platform to recruit, train, schedule, and manage volunteers for organizing during Olympic events.",
             img: "/p2.svg",
-            iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-            link: "https://github.com/adrianhajdin/zoom-clone",
+            iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/spring.svg", "/java.svg"],
+            link: "https://github.com/thamim1998/ParisOlympicsVolunteerSystem",
           },
           {
             id: 3,
-            title: "AI Image SaaS - Canva Application",
+            title: "Investor Billing System",
             des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-            img: "/p3.svg",
-            iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-            link: "https://github.com/adrianhajdin/ai_saas_app",
+            img: "/admin.svg",
+            iconLists: ["/re.svg", "/django.svg", "/tail.svg", "/ts.svg"],
+            link: "https://github.com/thamim1998/InvestorBillingSystem",
           },
           {
             id: 4,
@@ -100,7 +100,7 @@ export const navItems = [
             des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
             img: "/p4.svg",
             iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-            link: "https://github.com/adrianhajdin/iphone",
+            link: "https://github.com/",
           },
         ];
         
@@ -180,21 +180,21 @@ export const navItems = [
           },
           {
             id: 2,
-            title: "Mobile App Dev - JSM Tech",
-            desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+            title: "Freelance App Dev Project",
+            desc: "Designed and developed app for both iOS & Android platforms using React Native.",
             className: "md:col-span-2", // change to md:col-span-2
             thumbnail: "/exp2.svg",
           },
           {
             id: 3,
-            title: "Freelance App Dev Project",
-            desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+            title: "Lead Engineer",
+            desc: "Led the design, development, and deployment of a web application formula-driven UI components.",
             className: "md:col-span-2", // change to md:col-span-2
             thumbnail: "/exp3.svg",
           },
           {
             id: 4,
-            title: "Lead Frontend Developer",
+            title: "Full Stack Developer",
             desc: "Developed and maintained user-facing features using modern frontend technologies.",
             className: "md:col-span-2",
             thumbnail: "/exp4.svg",

@@ -1,7 +1,7 @@
 export const navItems = [
           { name: "About", link: "#about" },
           { name: "Projects", link: "#projects" },
-          { name: "Testimonials", link: "#testimonials" },
+          { name: "Experience", link: "#experience" },
           { name: "Contact", link: "#contact" },
         ];
         
@@ -205,13 +205,16 @@ export const navItems = [
           {
             id: 1,
             img: "/git.svg",
+            link:"https://github.com/thamim1998"
           },
           {
             id: 2,
             img: "/twit.svg",
+            link:"http://twitter.com/"
           },
           {
             id: 3,
             img: "/link.svg",
+            link:"https://www.linkedin.com/in/thamimul-ansari-901177160/"
           },
         ];

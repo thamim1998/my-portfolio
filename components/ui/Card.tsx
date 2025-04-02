@@ -35,7 +35,7 @@ export function ThreeDCardDemo({id, title, img, des, iconLists, link} : {
           rotateZ={-10}
           className="w-full mt-4"
         >
-          <Image
+          <img
             src={img}
             height="1000"
             width="1000"
@@ -62,7 +62,7 @@ export function ThreeDCardDemo({id, title, img, des, iconLists, link} : {
             as="button"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
-            <Link href={'https://github.com/adrianhajdin/portfolio/blob/main/components/ui/BentoGrid.tsx'}>
+            <Link href={link}>
            GitHub
             </Link>
           </CardItem>

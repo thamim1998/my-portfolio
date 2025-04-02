@@ -203,9 +203,11 @@ const ShaderMaterial = ({
     }
     lastFrameTime = timestamp;
 
-    const material: any = ref.current.material;
-    const timeLocation = material.uniforms.u_time;
-    timeLocation.value = timestamp;
+    if (ref.current?.material instanceof THREE.ShaderMaterial) {
+      const material = ref.current.material;
+      material.uniforms.u_time.value = timestamp;
+    }
+    
   });
 
   const getUniforms = () => {

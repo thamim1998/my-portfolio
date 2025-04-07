@@ -187,8 +187,8 @@ export const navItems = [
           },
           {
             id: 3,
-            title: "Lead Engineer",
-            desc: "Led the design, development, and deployment of a web application formula-driven UI components.",
+            title: "Lead Engineer (Academic Project)",
+            desc: "Led the development, and deployment of a web application featuring dynamic, formula-driven UI components, leading a team of 4 developers through Agile sprints.",
             className: "md:col-span-2", // change to md:col-span-2
             thumbnail: "/exp3.svg",
           },

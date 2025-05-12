@@ -180,8 +180,8 @@ export const navItems = [
           },
           {
             id: 2,
-            title: "Freelance App Dev Project",
-            desc: "Designed and developed app for both iOS & Android platforms using React Native.",
+            title: "Backend DevOps Engineer",
+            desc: "Designed and deployed scalable backend infrastructure to support cross-platform mobile applications (iOS/Android), ensuring high availability, CI/CD automation, and cloud-based performance optimization.",
             className: "md:col-span-2", // change to md:col-span-2
             thumbnail: "/exp2.svg",
           },
